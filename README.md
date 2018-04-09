@@ -10,15 +10,6 @@ The purpose of this document is to walk you throught the process of a typical se
 
 **IF YOU INSTALLED WLOX PRIOR TO 14/01/2015, PLEASE READ THE FILE UPDATE_GUIDE_v1.04 BEFORE CONTINUING**
 
-Getting Started
---------------
-WLOX runs on the traditional PHP/MySQL/Apache setup.
-
-**For a development environment**, you can simply clone the whole set of WLOX repositories by doing `git clone --recursive https://github.com/wlox/wlox.git`.
-
-**For a production environment**, it is strongly recommended to distribute the different repositories across multiple servers. You can clone each sub-module independently by doing `https://github.com/wlox/wlox-[submodule].git`.
-
-
 Project Structure
 --------------
 WLOX is structured as one main *git* repository with multiple sub-modules. As mentioned above, you can clone the whole project or each repository on it's own.
